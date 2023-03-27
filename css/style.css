@@ -108,11 +108,20 @@ img {
     padding: 15px;
 }
 
+.work-experience-company {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
 .education-school,
 .education-prof,
 .work-experience-prof {
     margin-bottom: 10px;
 }
+
 .sidebar {
     width: 370px;
     height: auto;
@@ -140,13 +149,21 @@ img {
 
 .tech-skills-list,
 .soft-skills-list,
-.languages-list {
+.languages-list,
+.contact-list {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
 }
+
+.tech-skills-item,
+.soft-skills-item,
+.contact-item {
+    margin-left: 15px;
+}
+
 .sidebar-title {
     font-size: 22px;
     line-height: 27px;
