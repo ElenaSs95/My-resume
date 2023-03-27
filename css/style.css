@@ -117,11 +117,13 @@ img {
 }
 
 .education-school,
-.education-prof,
 .work-experience-prof {
     margin-bottom: 10px;
 }
 
+.education-prof {
+    margin-top: 10px;
+}
 .sidebar {
     width: 370px;
     height: auto;
