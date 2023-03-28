@@ -104,6 +104,10 @@ img {
     color: #595959;
 }
 
+.progects-link:hover,
+.progects-link:focus {
+    color: rgb(0, 149, 255);
+}
 .my-work-experience {
     margin-bottom: 45px;
     padding: 15px;
