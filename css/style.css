@@ -62,6 +62,7 @@ img {
 }
 
 .about-me-name {
+    margin-top: 20px;
     font-size: 45px;
     line-height: 55px;
 }
@@ -95,6 +96,10 @@ img {
     margin-bottom: 0;
 }
 
+.progects-link-box {
+    margin-bottom: 5px;
+}
+
 .progects-link {
     color: #595959;
 }
@@ -109,21 +114,13 @@ img {
 }
 
 .work-experience-company {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     margin-bottom: 10px;
 }
 
-.education-school,
-.work-experience-prof {
+.education-school {
     margin-bottom: 10px;
 }
 
-.education-prof {
-    margin-top: 10px;
-}
 .sidebar {
     width: 370px;
     height: auto;
@@ -137,20 +134,18 @@ img {
 }
 
 .contacts,
-.tech-skills,
-.soft-skills,
 .languages {
     margin-left: 40px;
 }
 
-.contacts,
-.tech-skills,
-.soft-skills {
+.tech-skills {
+    margin-right: 100px;
+}
+
+.contacts {
     margin-bottom: 50px;
 }
 
-.tech-skills-list,
-.soft-skills-list,
 .languages-list,
 .contact-list {
     font-style: normal;
@@ -158,6 +153,25 @@ img {
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
+}
+
+.skills-box {
+    padding: 15px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.tech-skills-list,
+.soft-skills-list {
+    color: #000000;
+}
+
+.tech-skills-title,
+.soft-skills-title {
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
 }
 
 .tech-skills-item,
@@ -187,4 +201,9 @@ img {
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: rgb(0, 149, 255);
 }
